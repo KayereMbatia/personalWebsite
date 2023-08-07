@@ -3,21 +3,22 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 5px;
-   
+    border-radius: 25px;
+
 }
 
 
 div {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0, 0, 0);
+    background: #4E4FEB;
     color: rgb(255, 255, 255);
-   
+
 }
 
 
 body {
-    background-color: rgb(0, 0, 0);
-   
+    background: #4E4FEB;
+
 }
 
 
@@ -31,8 +32,10 @@ body {
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
 }
+
 .item:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 123, 0);
+    border-radius: 10px;
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-left: 1px solid;
@@ -47,13 +50,17 @@ body {
 }
 
 .about1 {
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border-style: solid;
 }
 
 .aboutTitle {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 25px;
+    background: #4E4FEB;
 }
 
 
@@ -61,26 +68,43 @@ body {
     display: flex;
     align-items: flex-end;
     align-items: center;
+    border-radius: 25px;
+    background: #068FFF;
+    padding: 20px;
+    color: #EEEEEE;
+    border-style: solid;
 }
 
 
-.achievments {
-    background-color: rgb(60, 60, 60);
+#acaTitle {
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
 }
 
 .school {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 25px;
+    background: #4E4FEB;
+    
 }
 
 .school1 {
     display: flex;
     flex-direction: column;
+    border-radius: 25px;
+    background: #068FFF;
+    border-style: solid;
+    padding: 15px;
 }
 
-.gallery {
-    background-color: rgb(94, 94, 94);
+
+#galTitle {
+    border-radius: 25px;
+    border-style: solid;
+    background-color: black;
 }
 
 h1 {
@@ -97,8 +121,7 @@ h2 {
 
 #mainPic {
     border-style: solid;
-    border-color: red;
-   
+    border-color: black;
     width: 1460px;
     height: 1100px;
 }
@@ -111,25 +134,19 @@ img {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-  .scroll-container {
+.scroll-container {
     scroll-behavior: smooth;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+}
 
-  .album {
+a {
+    text-decoration: none;
+}
+
+.album {
     display: flex;
     align-content: flex-start;
     justify-content: space-evenly;
     flex-direction: column;
-    
-  }
-  img:hover {
-    width: 700px;
-    height: 700px;
-    
-  }
+}
